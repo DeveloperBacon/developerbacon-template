@@ -1,0 +1,22 @@
+# editorconfig.org
+
+root = true
+
+[*]
+indent_style = tab
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+jsx_bracket_sameLine = true
+insert_final_newline = false
+html_whitespace_sensitivity = ignore
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.php]
+indent_size = 4
+
+[views/**.twig]
+indent_size = 2
