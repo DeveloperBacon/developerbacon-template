@@ -1,0 +1,11 @@
+// Based on this [snippet](https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/) by Hugo Giraudel.
+@mixin break($point) {
+	@if map-has-key($breakpoints, $point) {
+		@media screen and (max-width: map-get($breakpoints, $point)) {
+			@content;
+		}
+	} @else {
+		@warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. '
+			+ 'Available breakpoints are: #{map-keys($breakpoints)}.';
+	}
+}
