@@ -185,7 +185,7 @@ export default {
 		margin-bottom: 0.9rem;
 	}
 	&-image {
-		transition: opacity 0.3s ease, transform 0.3s ease;
+		transition: opacity 0.3s ease, transform 0.3s ease, filter 0.3s ease;
 	}
 	&-text {
 		opacity: 0;
@@ -201,6 +201,7 @@ export default {
 		.post-image {
 			opacity: 0.6;
 			transform: scale(1.05);
+			filter: blur(3px);
 		}
 		.post-text {
 			// display: block;
