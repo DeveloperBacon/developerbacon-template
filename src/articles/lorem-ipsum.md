@@ -4,9 +4,8 @@ date: 2019-01-07
 published: true
 featured: false
 tags: ["Test", "HTML"]
-series: false
-cover_image: ../assets/images/backup-post-background.png
-cover_alt: "This is the background"
+cover_image: ../assets/images/code.jpg
+cover_alt: "Picture of code from https://flic.kr/p/5iVv1g by nigelpepper with licence of https://creativecommons.org/licenses/by/2.0/"
 description:
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique turpis dolor, ut
   hendrerit risus hendrerit id. Mauris rhoncus magna tempor sem dapibus pulvinar.Lorem ipsum dolor

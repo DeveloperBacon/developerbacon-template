@@ -3,10 +3,8 @@ title: Template Post
 date: 2019-01-07
 published: true
 featured: true
-tags: ["template"]
-series: false
-cover_image: ../assets/images/backup-post-background.png
-cover_alt: ""
+cover_image: ../assets/images/code.jpg
+cover_alt: "Picture of code from https://flic.kr/p/5iVv1g by nigelpepper with licence of https://creativecommons.org/licenses/by/2.0/"
 description: "This is the template post for Developer Bacon"
 ---
 
