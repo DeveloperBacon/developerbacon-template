@@ -54,6 +54,7 @@ body {
 
 main {
 	position: relative;
+	min-height: 20rem;
 
 	& > :first-child,
 	& > aside + * {
