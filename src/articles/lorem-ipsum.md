@@ -1,8 +1,8 @@
 ---
 title: Lorem test post
-date: 2019-01-07
+date: 2019-06-07
 published: true
-featured: false
+featured: true
 tags: ["Test", "HTML"]
 cover_image: ../assets/images/code.jpg
 cover_alt: "Picture of code from https://flic.kr/p/5iVv1g by nigelpepper with licence of https://creativecommons.org/licenses/by/2.0/"
