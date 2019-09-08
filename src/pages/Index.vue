@@ -25,19 +25,6 @@
 				</li>
 			</ul>
 		</section>
-
-		<section class="main-content main">
-			<h2>What this site is all about</h2>
-			<p>
-				This site was made to spread my knowledge of web development and other
-				tech to the world.
-			</p>
-		</section>
-
-		<section class="main-content main">
-			<h2>The Developer of the Bacon</h2>
-			<article class="h-card" rel="author"></article>
-		</section>
 	</FrontPage>
 </template>
 

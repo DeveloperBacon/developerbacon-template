@@ -2,7 +2,7 @@
 	<Layout>
 		<SidebarLeft />
 		<section class="main-content main">
-			<h1>About the author of Developer Bacon</h1>
+			<h1>About Developer Bacon</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam
 				corrupti quos at officiis illo quod vitae dolorem harum minus
