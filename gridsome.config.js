@@ -92,7 +92,7 @@ module.exports = {
 				resources: [
 					"~/assets/styles/mixins/breakpoints.scss",
 					"~/assets/styles/mixins/fontscale.scss",
-					"~/assets/styles/variables.scss"
+					"~/assets/styles/main.scss"
 				]
 			}
 		},

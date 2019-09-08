@@ -8,7 +8,6 @@ import Footer from "~/components/Footer.vue";
 // The info for how to set this up can be found in ./src/pages/README.md
 import VueDisqus from "vue-disqus";
 
-import "~/assets/styles/main.scss";
 import "~/assets/scripts/main.js";
 
 export default function(Vue, { head }) {
