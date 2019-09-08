@@ -11,10 +11,10 @@
 				>
 			</li>
 			<li>
-				<g-link to="/about">About me</g-link> &nbsp;
+				<g-link to="/about">About</g-link> &nbsp;
 				<g-link to="/contact">Contact me</g-link>
 			</li>
-			<li>Developer Bacon &copy; All rights reserved</li>
+			<li>{{ $static.metaData.siteName }} &copy; Copy Right Statement here</li>
 			<li>
 				Website developed and managed by
 				<a
@@ -28,6 +28,14 @@
 		</ul>
 	</footer>
 </template>
+
+<static-query>
+query Footer {
+  metaData {
+    siteName
+  }
+}
+</static-query>
 
 <style lang="scss" scoped>
 .footer {

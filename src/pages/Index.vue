@@ -7,7 +7,7 @@
 			</div>
 			<div class="page-header__group">
 				<!-- <g-image class="logo" src="~/favicon.png" /> -->
-				<h1 class="page-title">Welcome to Developer Bacon</h1>
+				<h1 class="page-title">Welcome to {{ $page.metaData.siteName }}</h1>
 				<div>
 					<p>
 						Welcome to Developer Bacon, where the content is fresher than a
