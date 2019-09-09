@@ -3,15 +3,31 @@
 ## Directory Structure
 
 ```
-src
- |
-.editorconfig
-.gitattributes
-.gitignore
-gridsome.config.js
-gridsome.server.js
-package.json
-README.md
+developerbacon.ca
+ ├── src
+ │  ├── articles
+ │  ├── assets
+ │  │  ├── fonts
+ │  │  ├── images
+ │  │  ├── scripts
+ │  │  │  └── main.js
+ │  │  └── styles
+ │  │     ├── mixins
+ │  │     └── main.scss
+ │	├── components
+ │	├── layouts
+ │	├── pages
+ │	├── templates
+ │	├── favicon.png
+ │	├── index.html
+ │	└── main.js
+ ├── .editorconfig
+ ├── .gitattributes
+ ├── .gitignore
+ ├── gridsome.config.js
+ ├── gridsome.server.js
+ ├── package.json
+ └── README.md
 ```
 
 ## Getting Started
