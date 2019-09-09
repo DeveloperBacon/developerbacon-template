@@ -42,14 +42,14 @@ developerbacon.ca
 
 To start development for this template you will need NPM which comes from [Node.js](https://nodejs.org/) and run the following commands.
 
-```bash
+```shell
 npm install
 npm run start
 ```
 
 If you have [Yarn](https://yarnpkg.com/) installed you can use the following commands.
 
-```bash
+```shell
 yarn
 yarn start
 ```
