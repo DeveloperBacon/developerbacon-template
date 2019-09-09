@@ -23,6 +23,11 @@
 				<li v-for="edge in $page.posts.edges" :key="edge.node.id">
 					<Post class="post" :post="edge.node" />
 				</li>
+				<!-- Filler li's -->
+				<li></li>
+				<li></li>
+				<li></li>
+				<!-- end filler -->
 			</ul>
 		</section>
 	</FrontPage>
