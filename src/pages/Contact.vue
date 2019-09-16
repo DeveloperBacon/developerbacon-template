@@ -1,11 +1,8 @@
 <template>
 	<Layout>
-		<SidebarLeft />
 		<section class="main-content main">
 			<h1>Contact Me</h1>
-			<div>
-				<p>This is a form</p>
-			</div>
+			<div></div>
 			<form action="" method="get" v-on:submit.prevent="sendEmail">
 				<div>
 					<label class="u-hidden--visually" for="name">Name</label>
@@ -91,6 +88,7 @@
 				<b>{{ this.message }}</b>
 			</p> -->
 		</section>
+		<SidebarLeft />
 	</Layout>
 </template>
 

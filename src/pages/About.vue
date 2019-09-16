@@ -1,6 +1,5 @@
 <template>
 	<Layout>
-		<SidebarLeft />
 		<section class="main-content main">
 			<h1>About Developer Bacon</h1>
 			<p>
@@ -9,6 +8,7 @@
 				perferendis fugit ratione iure itaque unde maxime blanditiis, omnis ut.
 			</p>
 		</section>
+		<SidebarLeft />
 	</Layout>
 </template>
 

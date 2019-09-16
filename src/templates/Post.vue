@@ -48,6 +48,7 @@
 				<!-- <Pagination :page="$page.post"/> -->
 			</section>
 		</transition>
+		<SidebarLeft />
 		<aside class="main main-content">
 			<vue-disqus
 				class="dark-theme"
