@@ -1,7 +1,6 @@
 <template>
 	<Layout>
-		<SidebarLeft />
-		<!-- <SidebarRight /> -->
+		<SidebarRight />
 		<!-- @beforeLeave="beforeLeave"
       @enter="enter" -->
 		<transition name="page" @afterEnter="afterEnter" appear>
