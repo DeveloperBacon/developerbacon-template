@@ -9,4 +9,4 @@ cover_alt: "Picture of code from https://flic.kr/p/5iVv1g by nigelpepper with li
 description: "This is the template post for Developer Bacon"
 ---
 
-# [This is the template post for Developer Bacon](#this-is-the-template-post-for-developer-bacon)
+## [This is the template post for Developer Bacon](#this-is-the-template-post-for-developer-bacon)
