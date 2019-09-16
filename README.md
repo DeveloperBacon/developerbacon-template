@@ -35,8 +35,10 @@ developerbacon.ca
 ### Technologies Used
 
 - [Gridsome](https://gridsome.org/)
+- [Vuejs](https://vuejs.org)
 - [Disqus Comments](https://disqus.com/)
 - [SMTPJS](https://smtpjs.com/)
+- [Yarn](https://yarnpkg.com/)
 
 ### Starting Development
 

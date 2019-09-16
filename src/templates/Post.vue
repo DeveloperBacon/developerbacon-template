@@ -49,6 +49,7 @@
 		</transition>
 		<SidebarLeft />
 		<aside class="main main-content">
+			<!-- To find out to set up the Disqus comments check out the README.md file in /templates/README.md -->
 			<vue-disqus
 				class="dark-theme"
 				shortname="developerbacon"
