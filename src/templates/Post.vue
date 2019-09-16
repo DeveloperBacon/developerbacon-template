@@ -49,7 +49,11 @@
 			</section>
 		</transition>
 		<aside class="main main-content">
-			<vue-disqus shortname="" :identifier="$page.post.id"></vue-disqus>
+			<vue-disqus
+				class="dark-theme"
+				shortname="developerbacon"
+				:identifier="$page.post.id"
+			></vue-disqus>
 		</aside>
 	</Layout>
 </template>
@@ -208,6 +212,14 @@ ul.list.tags li a {
 		color: $white;
 	}
 }
+.dark-theme {
+	background: var(--dark-theme, $black);
+	@media (prefers-color-scheme: light) {
+		& {
+			padding: 0 1rem;
+		}
+	}
+}
 .tags {
 	float: right;
 	margin-top: 0;
@@ -271,7 +283,7 @@ ul.list li:last-child:after {
 		content: "";
 		display: block;
 		height: 0;
-		border: 0.05rem solid $accent-color;
+		border: 0.05rem solid var(--accent-color, $accent-color);
 		width: 10rem;
 		transform: translateY(0.5rem);
 	}

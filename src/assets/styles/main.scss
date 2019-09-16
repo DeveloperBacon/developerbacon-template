@@ -70,6 +70,26 @@ $breakpoints: (
 // ------------
 // 3. Universal Elements
 // ------------
+:root {
+	--background-color: #000;
+	--text-color: #89888a;
+	--text-accent: #fff;
+	--accent-color: #ff4b39;
+	--accent-background: #222;
+	--heading-color: #fff;
+	--dark-theme: #000;
+}
+@media (prefers-color-scheme: light) {
+	body {
+		--background-color: #fff;
+		--text-color: #000;
+		--text-accent: #fff;
+		--accent-color: #ff4b39;
+		--accent-background: #aaa;
+		--heading-color: #000;
+		--dark-theme: #89888a;
+	}
+}
 
 *,
 *::before,
@@ -90,8 +110,8 @@ body {
 		"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 12pt;
 	margin: 0;
-	background: $black;
-	color: $white;
+	background: var(--background-color, $black);
+	color: var(--text-color, $off-black);
 	line-height: 1.3;
 }
 
@@ -105,17 +125,17 @@ h5 {
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: $white;
+	color: var(--heading-color, $white);
 }
 
 p,
 li {
-	color: $text-color;
+	color: var(--text-color, $off-black);
 }
 
 input,
 input::placeholder {
-	color: $text-color;
+	color: var(--text-color, $off-black);
 }
 
 // ------------
@@ -123,7 +143,7 @@ input::placeholder {
 // ------------
 
 .t-accent {
-	color: $red;
+	color: var(--accent-color, $red);
 }
 
 // ------------
@@ -131,7 +151,7 @@ input::placeholder {
 // ------------
 
 .pagination-link {
-	border: 1px solid $red;
+	border: 1px solid var(--accent-color, $red);
 	padding: 0.5rem 1rem;
 	border-radius: 0.6rem;
 	font-weight: 700;
@@ -148,7 +168,7 @@ input::placeholder {
 .header {
 	input,
 	input::placeholder {
-		color: $text-accent;
+		color: var(--text-accent, $red);
 	}
 }
 
@@ -158,13 +178,13 @@ input::placeholder {
 
 .link,
 a {
-	color: $accent-color;
+	color: var(--accent-color, $red);
 	text-decoration: none;
 	transition: color 0.3s;
 
 	&:hover,
 	&:focus {
-		color: $text-color;
+		color: var(--text-color, $off-black);
 	}
 }
 
@@ -330,9 +350,11 @@ select {
 	margin: 0.2rem;
 	outline: none;
 	max-width: calc(100vw - 2rem);
+	color: var(--text-color, $white);
 
 	&::placeholder {
 		transition: color 0.2s;
+		color: var(--text-color, $white);
 	}
 
 	&:focus,
@@ -451,11 +473,11 @@ button {
 		margin-top: 2rem;
 		line-height: 1.5;
 		a {
-			color: $white;
+			color: var(--heading-color, $white);
 
 			&:hover,
 			&:focus {
-				color: $accent-color;
+				color: var(--accent-color, $accent-color);
 			}
 		}
 	}
@@ -468,13 +490,4 @@ button {
 	pre[class*="language-"] {
 		margin: 2rem 0;
 	}
-}
-
-//
-// Wp Blocks
-//
-.wp-block-code {
-	background-color: #272822;
-	padding: 1rem;
-	color: $black;
 }

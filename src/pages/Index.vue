@@ -152,7 +152,7 @@ h1 {
 }
 .recent-posts {
 	position: relative;
-	background: $off-black;
+	background: var(--accent-background, $off-black);
 	width: calc(100% + 1rem);
 	left: -1rem;
 	padding: 1rem 0;

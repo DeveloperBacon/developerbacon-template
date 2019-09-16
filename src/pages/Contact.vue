@@ -206,10 +206,10 @@ form {
 input,
 select,
 textarea {
-	color: $text-color;
+	color: var(--text-color, $text-color);
 
 	&::placeholder {
-		color: $text-color;
+		color: var(--text-color, $text-color);
 	}
 }
 </style>

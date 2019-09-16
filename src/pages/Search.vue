@@ -139,6 +139,9 @@ h1 {
 	margin-bottom: 2rem;
 }
 .search-text {
-	color: $white;
+	color: var(--text-color, $white);
+	&::placeholder {
+		color: var(--text-color, $white);
+	}
 }
 </style>
