@@ -61,7 +61,7 @@
 
 <page-query>
 query Post ($path: String) {
-  meta: metaData {
+  meta: metadata {
     siteUrl
   }
 	post: post(path: $path) {

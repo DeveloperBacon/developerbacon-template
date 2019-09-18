@@ -1,15 +1,13 @@
 <template>
-	<div class="layout">
-		<Header />
+	<main class="layout">
 		<!-- @enter="enter"
       @beforeLeave="beforeLeave" -->
-		<transition name="page" @afterEnter="afterEnter" appear>
-			<main class="main">
-				<slot />
-			</main>
-		</transition>
-		<Footer />
-	</div>
+		<!-- <transition name="page" @afterEnter="afterEnter" appear> -->
+		<!-- <main class="main"> -->
+		<slot />
+		<!-- </main> -->
+		<!-- </transition> -->
+	</main>
 </template>
 
 <script>

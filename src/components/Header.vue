@@ -6,7 +6,7 @@
 					<g-image src="~/favicon.png" class="logo-link"></g-image>
 				</g-link> -->
 				<g-link class="logo-link" accesskey="h" to="/">{{
-					$static.metaData.siteName
+					$static.metadata.siteName
 				}}</g-link>
 			</strong>
 			<nav class="nav">
@@ -45,7 +45,7 @@
 
 <static-query>
 query {
-	metaData {
+	metadata {
 		siteName
 	}
 }

@@ -7,7 +7,7 @@
 			</div>
 			<div class="page-header__group">
 				<!-- <g-image class="logo" src="~/favicon.png" /> -->
-				<h1 class="page-title">Welcome to {{ $page.metaData.siteName }}</h1>
+				<h1 class="page-title">Welcome to {{ $page.metadata.siteName }}</h1>
 				<div>
 					<p>
 						Welcome to Developer Bacon, where the content is fresher than a
@@ -35,7 +35,7 @@
 
 <page-query>
 query Home($page:Int) {
-  metaData {
+  metadata {
     siteUrl
 		description
 		siteName
@@ -98,14 +98,14 @@ export default {
 			meta: [
 				{
 					name: "description",
-					content: this.$page.metaData.description
+					content: this.$page.metadata.description
 				},
 				{ property: "og:type", content: "website" },
-				{ property: "og:url", content: this.$page.metaData.siteUrl },
-				{ property: "og:title", content: this.$page.metaData.siteName },
+				{ property: "og:url", content: this.$page.metadata.siteUrl },
+				{ property: "og:title", content: this.$page.metadata.siteName },
 				{
 					property: "og:description",
-					content: this.$page.metaData.description
+					content: this.$page.metadata.description
 				}
 			]
 		};

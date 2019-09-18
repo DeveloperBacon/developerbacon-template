@@ -14,7 +14,7 @@
 				<g-link to="/about">About</g-link> &nbsp;
 				<g-link to="/contact">Contact me</g-link>
 			</li>
-			<li>{{ $static.metaData.siteName }} &copy; Copy Right Statement here</li>
+			<li>{{ $static.metadata.siteName }} &copy; Copy Right Statement here</li>
 			<li>
 				Website developed and managed by
 				<a
@@ -31,7 +31,7 @@
 
 <static-query>
 query Footer {
-  metaData {
+  metadata {
     siteName
   }
 }

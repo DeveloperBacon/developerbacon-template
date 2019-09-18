@@ -12,8 +12,6 @@ module.exports = {
 	siteName: "Developer Bacon",
 	siteUrl: "https://developerbacon.ca",
 	titleTemplate: "%s Developer Bacon",
-	host: "localhost",
-	port: "8080",
 	icon: {
 		favicon: {
 			src: "./src/favicon.png",
@@ -59,6 +57,10 @@ module.exports = {
 			}
 		}
 	},
+	templates: {
+		Post: "/articles/:title",
+		Tag: "/tags/:title"
+	},
 	plugins: [
 		{
 			use: "@gridsome/source-filesystem",
@@ -66,7 +68,7 @@ module.exports = {
 				// path: 'articles/**/*.md',
 				path: "src/articles/*.md",
 				typeName: "Post",
-				route: "/articles/:slug",
+				route: "/articles/:title",
 				remark: {
 					// remark options
 					// externalLinksTarget: '_blank',
@@ -80,7 +82,7 @@ module.exports = {
 					// author: 'Brett Anda',
 					tags: {
 						typeName: "Tag",
-						route: "/tag/:slug",
+						route: "/tag/:title",
 						create: true
 					}
 				}
@@ -123,7 +125,7 @@ module.exports = {
 						changefreq: "weekly",
 						priority: 1
 					},
-					"/tag/*": {
+					"/tags/*": {
 						changefreq: "weekly",
 						priority: 1
 					}

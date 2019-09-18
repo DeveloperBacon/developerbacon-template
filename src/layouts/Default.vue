@@ -1,15 +1,7 @@
 <template>
-	<div class="layout">
-		<Header />
-		<!-- @beforeLeave="beforeLeave"
-      @enter="enter" -->
-		<transition name="page" @afterEnter="afterEnter" appear>
-			<main>
-				<slot />
-			</main>
-		</transition>
-		<Footer />
-	</div>
+	<main class="layout">
+		<slot />
+	</main>
 </template>
 
 <script>
@@ -20,21 +12,6 @@ export default {
 		};
 	},
 	methods: {
-		// Re-enable when gridsome supports enter and leaving transitions
-		//
-		// beforeLeave(element) {
-		//   this.prevHeight = getComputedStyle(element).height;
-		// },
-		// enter(element) {
-		//   const { height } = getComputedStyle(element);
-
-		//   element.style.height = this.prevHeight;
-		//   console.log(this.prevHeight);
-
-		//   setTimeout(() => {
-		//     element.style.height = height;
-		//   });
-		// },
 		afterEnter(element) {
 			element.style.height = "auto";
 		}
@@ -53,8 +30,8 @@ body {
 }
 
 main {
+	min-height: 40rem;
 	position: relative;
-	min-height: 20rem;
 
 	& > :first-child,
 	& > aside + * {

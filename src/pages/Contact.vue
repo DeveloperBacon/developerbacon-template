@@ -94,7 +94,7 @@
 
 <page-query>
 query About {
-  metaData {
+  metadata {
     siteUrl
   }
 }

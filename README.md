@@ -19,6 +19,7 @@ developerbacon.ca
  │	├── pages
  │	├── templates
  │	├── favicon.png
+ │	├── App.vue
  │	├── index.html
  │	└── main.js
  ├── .editorconfig

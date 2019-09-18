@@ -6,14 +6,14 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function(api) {
-	api.loadSource(({ addContentType }) => {
+	api.loadSource(({ addCollection, addSchemaTypes }) => {
 		// Use the Data Store API here: https://gridsome.org/docs/data-store-api
 	});
 
 	api.loadSource(async store => {
-		store.addMetaData(
+		store.addMetadata(
 			"description",
-			"Web development tips with tips fresher than a piece of bacon"
+			"Web development tips with tips fresher than a piece of cooked bacon. Developed and maintained by Brett Anda"
 		);
 	});
 
