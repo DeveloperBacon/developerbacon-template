@@ -60,3 +60,7 @@ yarn start
 ## Setting up components
 
 For info on setting up the components like the contact page and comments can be found in **README** files in the same directory/folder as the component.
+
+## Learning about gridsome
+
+To find out more about how gridsome works and everthing that you need to know about Gridsome, go to their [official website](https://gridsome.org)
