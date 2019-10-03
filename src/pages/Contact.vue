@@ -169,7 +169,13 @@ export default {
 						"</p><p><strong>MESSAGE: </strong>" +
 						this.message +
 						"</p>"
-				}).then(message => alert("Message has been sent."));
+					// Check out the ./pages/README.md for more info on how to set this up
+					// }).then(message => alert("Message has been sent."));
+				}).then(message =>
+					alert(
+						"The message was not sent, becuase email has not been set up. Goto ./pages/Contact.vue to fix"
+					)
+				);
 			} catch (e) {
 				alert(e.message);
 			}
