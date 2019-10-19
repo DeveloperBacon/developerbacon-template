@@ -14,14 +14,14 @@ developerbacon.ca
  │  │  └── styles
  │  │     ├── mixins
  │  │     └── main.scss
- │	├── components
- │	├── layouts
- │	├── pages
- │	├── templates
- │	├── favicon.png
- │	├── App.vue
- │	├── index.html
- │	└── main.js
+ │  ├── components
+ │  ├── layouts
+ │  ├── pages
+ │  ├── templates
+ │  ├── favicon.png
+ │  ├── App.vue
+ │  ├── index.html
+ │  └── main.js
  ├── .editorconfig
  ├── .gitattributes
  ├── .gitignore
