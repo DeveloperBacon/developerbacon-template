@@ -1,5 +1,7 @@
 # Developer Bacon Starter Pack
 
+> This template is more out of date from [Developer Bacon](https://developerbacon.ca) than I would like, so I will be updating this template soon.
+
 ## Directory Structure
 
 ```
