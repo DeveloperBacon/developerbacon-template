@@ -29,7 +29,7 @@
 		"@gridsome/transformer-remark": "^0.3.3",
 		"animejs": "^3.0.1",
 		"gridsome": "^0.7.3",
-		"jquery": "^3.4.1",
+		"jquery": "^3.5.0",
 		"normalize.css": "^8.0.0",
 		"sendemail": "^3.4.0",
 		"vue-disqus": "^3.0.5"
